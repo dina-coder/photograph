@@ -1,0 +1,40 @@
+.form.error input,
+.form.error textarea
+{
+  border: solid red 1px;
+
+}
+.worm{
+  position: relative;
+
+}
+
+.form.error span
+{
+  font-size: 12px;
+  position: absolute;
+  display: flex;
+  color:red;
+
+
+}
+
+.form{
+
+  input{
+
+    background-color: #1a1a1a;
+    border: 1px solid #acacac;
+    color:white;
+  }
+  input::placeholder{
+    color: #dcdcdc;
+    font-size:9pt;
+    font-weight: 500;
+    font-family: Arial;
+    padding-left:10px;
+  }
+  input:focus{
+    background-color: #1a1a1a;
+  }
+}
