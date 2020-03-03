@@ -1,122 +1,79 @@
-.Back {
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+.Background {
+  background-color: #1a1a1a;
+  position: absolute;
+  z-index: -1;
+  color: white;
+  width: 100%;
+  height: 100%;
+  .Title{
+    position: relative;
+    font-family: Rubik;
+    color: white;
+    font-size: 35pt;
+    text-align: center;
+    top: 1.2em;
+  }
+  .Annotation{
+    position: absolute;
+    color: rgb(164, 164, 164);
+    height: 10em;
+    width: 60em;
+    left: 22%;
+    right:22%;
+    top: 14em;
+    font-size: 9pt;
+    line-height: 12pt;
+    font-family: Raleway;
+  }
+  hr{
+    position: relative;
+    border: none;
+    background-color:#e30613;
+    height: 2px;
+    color: #e30613;
+    width: 3em;
+    top: 1.5em;
+    right: 10.5em;
+  }
+  .Form {
 
-    .Logo {
-        color: #e30613;
-        font-family: 'Rubik';
-        font-weight: 800;
-        font-size: 23pt;
-        line-height: 22pt;
-        position: absolute;
-        top: 40px;
-        left: 40px;
+    position: absolute;
+    top: 16em;
+    left: 22%;
+    height: 13em;
+
+    .Name {
+      height: 30px;
+      width: 186px;
     }
-    .Menu {
-        width: 40px;
-        height: 30px;
-        position: fixed;
-        top: 40px;
-        right: 40px;
-        z-index: 6;
-
-
-        .Block {
-            width: 100%;
-            height: 3px;
-            margin-bottom: 7px;
-            background-color: #e30613;
-            position: relative;
-            display: block;
-        }
-    }
-
-
-
-    .MenuContainer {
-        left: 10%;
-        right: 10%;
-        bottom: auto;
-        top: 40%;
-        margin-top: -10em;
-        display: block;
-        position: fixed;
-        height: 30em;
-
-        .MenuWindow {
-            background: #e30613;
-            opacity: 0.90;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-        }
-    }
-    .ButtonContainer{
-        position: absolute;
-        top: calc(40% - 150px);
-        margin: 0 82%;
-        text-align: center;
-            .Logo1{
-                height: 50px;
-            }
+    .Date {
+      position: relative;
+      top:-2.6em;
+      left: 15.3em;
+      height: 30px;
+      width: 186px;
     }
 
-    ul {
-        position: absolute;
-        top: 40%;
-        left: 0;
-        width: 100%;
-        padding: 0;
-        text-align: center;
-        list-style: none;
-        margin-top: -8em;
-
-        li {
-            font-family: "Open Sans", sans-serif;
-            display: list-item;
-            text-align: -webkit-match-parent;
-
-            .NavLink {
-                color: white;
-                font-weight: 900;
-                margin-bottom: 0;
-                display: block;
-                text-align: center;
-                line-height: 1.4em;
-                font-size: 50px;
-                text-decoration: none;
-            }
-        }
+    .Phone {
+      position: relative;
+      top: -0.5em;
+      height: 30px;
+      width: 390px;
     }
-    .Blocks {
-        position: absolute;
-        top: calc(40% + 250px);
-        left: 0;
-        width: 100%;
-        text-align: center;
-        line-height: 0;
-        .LogoContainer {
-            display: inline-block;
-            *display: inline;
-            .Logo1 {
-                height: 21px;
-            }
-            margin: 0 2%;
-            text-align: center;
-        }
+
+    .Mes {
+      position: relative;
+      top: 1em;
+      width: 390px;
+      height: 90px;
     }
-}
-button{
-    border: 0;
-    background: transparent;
-    outline: none;
-}
-button:hover{
-    cursor: pointer;
+    button{
+      position: relative;
+      top: 2.3em;
+      color: white;
+      border: 2px solid white;
+      height: 50px;
+      width: 186px;
+    }
+  }
 }

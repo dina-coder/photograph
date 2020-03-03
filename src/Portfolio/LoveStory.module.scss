@@ -1,0 +1,35 @@
+.Back{
+  background-color: #1a1a1a;
+  position: absolute;
+  z-index: -1;
+  color: white;
+  width: 100%;
+  min-height: 100%;
+  .Title{
+    position: relative;
+    font-family: Rubik;
+    color: white;
+    font-size: 35pt;
+    text-align: center;
+    top: 1.4em;
+  }
+hr{
+  position: relative;
+  border: none;
+  background-color:#e30613;
+  height: 2px;
+  color: #e30613;
+  width: 3em;
+  top: 2em;
+  right: 5.1em;
+}
+  .ImageContainer{
+    padding-top:5em;
+    padding-left: 6%;
+  }
+  img{
+    height: 15em;
+    padding-top:  10px;
+    padding-right: 16px;
+  }
+}
